@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* Clear Fix By Nicolas Gallagher*/
+.container:before,
+.container:after {
+  content:"";
+  display:table;
+}
+.container:after {
+  clear:both;
+}
+.container {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 872px;
+    margin: 162px auto 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 475px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* width: 290.63px; */
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 47px 0 0 46px;
+}
+
+.left-card {
+    background-color: #e28525;
+    border-radius: 8px 0 0 8px;
+}
+
+.icon {margin-bottom: 40px;}
+
+.left-card button{color: #e28525;}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-head {
+    margin-bottom: 36px;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-text {
+    margin-bottom: 83px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 21px;
+    opacity: 0.7;
+}
+
+.card-text::first-letter{text-transform: capitalize;}
+
+.card-head, .card-text {color: #ffffff;}
+
+.middle-card {background-color: #016972;}
+
+.middle-card span {text-transform: uppercase;}
+
+.middle-card button{color: #016972;}
+
+.right-card {
+    background-color: #00403f;
+    border-radius: 0 8px 8px 0;
+}
+
+.right-card button{color: #00403f;}
+
+.btn {
+    width: 140px;
+    height: 48px;
+    margin-bottom: 46px;
+    padding: 16px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 26px;
+}
+
+.left-card .btn:hover {
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 2px #b56a1e solid;
+}
+
+.middle-card .btn:hover {
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 2px #01545b solid;
+}
+
+.right-card .btn:hover {
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 2px #003332 solid;
+}
