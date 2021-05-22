@@ -19,23 +19,26 @@
 }
 
 .container {
-    width: 872px;
-    margin: 162px auto 0;
+    width: 100%;
 }
 
 .wrapper {
-    width: 100%;
-    height: 475px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card-section-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+
+.card-section-content-wrapper {
+    width: 64%;
+    margin: 0 auto;
+    padding: 30px 0 45px;
 }
 
 .card {
-    /* width: 290.63px; */
-    flex: 1 1 auto;
-    justify-content: center;
-    padding: 47px 0 0 46px;
+    flex-basis: 33.33%
 }
 
 .left-card {
@@ -91,7 +94,6 @@
 .btn {
     width: 140px;
     height: 48px;
-    margin-bottom: 46px;
     padding: 16px 30px;
     font-size: 13px;
     font-weight: 600;
